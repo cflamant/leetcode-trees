@@ -41,7 +41,7 @@ def tree_from_list(values):
     """Build a binary tree from a list of values.
 
     The list of values is interpreted to be serialized using LeetCode's format,
-    using level-order traversal and with None signifying path terminators.
+    using level order traversal and with None signifying path terminators.
 
     https://support.leetcode.com/hc/en-us/articles/360011883654-What-does-1-null-2-3-mean-in-binary-tree-representation-
 
@@ -90,7 +90,7 @@ def print_tree(root):
            _b_      c_
           d   e       f
     
-    The trick is to process the level-order traversal backwards,
+    The trick is to process the level order traversal backwards,
     centering the parents of the child nodes. At then end, reverse
     the order of the strings.
 
@@ -167,7 +167,7 @@ def print_tree(root):
 
 
 def level_list(root):
-    """Get full level-order traversal of binary tree nodes.
+    """Get full level order traversal of binary tree nodes.
 
     Example:
 	>>> from leetcode_trees import binarytree
