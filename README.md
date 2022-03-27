@@ -1,7 +1,7 @@
 # leetcode-trees
 LeetCode-style binary tree deserializer and ASCII tree visualizer.
 
-LeetCode uses a serialized format to represent binary trees using level order traversal where `None` values indicate path terminators (i.e. that no node is present in this possible child location).
+[LeetCode uses a serialized format to represent binary trees](https://support.leetcode.com/hc/en-us/articles/360011883654-What-does-1-null-2-3-mean-in-binary-tree-representation-) using level order traversal where `None` values indicate path terminators (i.e. that no node is present in this possible child location).
 
 This package provides a function `leetcode_trees.binarytree.tree_from_list` which builds a tree from a serialized list of node values and returns the root. This root node can then be used as inputs to functions expecting a standard tree representation with nodes `node` whose children are accessed using `node.left` and `node.right`, and whose value is stored in `node.val`.
 
