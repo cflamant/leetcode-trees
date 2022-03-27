@@ -8,7 +8,7 @@ This package provides a function `leetcode_trees.binarytree.tree_from_list` whic
 This package also includes a simple ASCII-based binary tree visualizer which prints trees to the terminal.
 
 ## Example
-```
+```python
 >>> from leetcode_trees import binarytree
 >>> tree = binarytree.tree_from_list(list(range(14)))
 >>> binarytree.print_tree(tree)
